@@ -8,3 +8,4 @@ update_script.sh
 assets/backgrounds/backgrounds.json
 imagecache/
 dueutil.json
+dbconfig.json

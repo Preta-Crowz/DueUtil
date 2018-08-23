@@ -4,7 +4,7 @@ require_once('util.php');
 
 define("CLIENT_ID","[REDACTED]");
 define("CLIENT_SECRET","[REDACTED]");
-define("REDIRECT_URL","https://dueutil.tech/callback");
+define("REDIRECT_URL","https://pdu.zz.am/callback");
 
 session_name('dueutil_tech_auth');
 

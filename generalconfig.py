@@ -28,7 +28,7 @@ DONOR_ROLE_ID = "343059674054262814"
 # Cap for all things. Quests, weapons and wagers.
 THING_AMOUNT_CAP = 120
 
-BOT_INVITE = "https://dueutil.tech/invite"
+BOT_INVITE = "https://pdu.zz.am/invite"
 
 VERSION = "Release 2.0.6.2"
 

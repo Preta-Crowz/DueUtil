@@ -5,7 +5,7 @@ require_once("util.php");
 # Auth
 $user = "admin";
 $host = "127.0.0.1";
-$pwd = "[REDACTED]";
+$pwd = "projecter";
 $manager = new MongoDB\Driver\Manager("mongodb://$user:$pwd@$host/admin?authMechanism=SCRAM-SHA-1");
 // $db = $client->selectDB("dueutil");
 

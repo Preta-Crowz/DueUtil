@@ -121,7 +121,7 @@ async def warn_on_invalid_image(channel, url):
     if not await url_image(url):
         await util.say(channel,
                        (":warning: The image url provided does not seem to be correct!\n"
-                        + "The url must point directly to an image file such as <https://dueutil.tech/img/slime.png>."))
+                        + "The url must point directly to an image file such as <https://pdu.zz.am/img/slime.png>."))
 
 
 async def load_image_url(url, **kwargs):
@@ -130,11 +130,11 @@ async def load_image_url(url, **kwargs):
     parsed_url = urlparse(url)
     do_not_compress = kwargs.get("raw", False)
     if (parsed_url.hostname is not None
-        and "dueutil.tech" in parsed_url.hostname
+        and "pdu.zz.am" in parsed_url.hostname
             and parsed_url.path.startswith("/imagecache/")):
         # We don't want to download imagecache images again.
         filename = "assets" + parsed_url.path
-        url = ""  # We don't want to cache any dueutil.tech stuff
+        url = ""  # We don't want to cache any pdu.zz.am stuff
     else:
         filename = imagecache.get_cached_filename(url)
     if not do_not_compress and os.path.isfile(filename):

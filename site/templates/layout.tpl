@@ -31,11 +31,11 @@ That means your now a certified hacker man and have totally hacked me.
       <meta name="author" content="MacDue">
       <meta name="description" content="[@pagedesc]" property="og:description">
       <!-- Open graph meta -->
-      <meta property="og:url" content="http://dueutil.tech/">
+      <meta property="og:url" content="http://pdu.zz.am/">
       <meta property="og:type" content="website">
       <meta property="og:title" content="DueUtil - [@pagename]">
       <meta content="DueUtil" property="og:site_name">
-      <meta property="og:image" content="http://dueutil.tech/img/logo.png">
+      <meta property="og:image" content="http://pdu.zz.am/img/logo.png">
       <meta content='image/png' property='og:image:type'>
    </head>
    <body>
@@ -78,7 +78,7 @@ That means your now a certified hacker man and have totally hacked me.
                <div style="flex-grow: 1;"></div>
                <footer id="due-footer" class="mdl-mini-footer">
                 <div class="mdl-mini-footer__left-section">
-                  <div class="mdl-logo">DueUtil &copy; 2017 MacDue&#x23;4453 (Ben) - <a class="due-link" href="mailto:macdue@dueutil.tech" target="_top">Contact</a></div>
+                  <div class="mdl-logo">DueUtil &copy; 2017 MacDue&#x23;4453 (Ben) - <a class="due-link" href="mailto:macdue@pdu.zz.am" target="_top">Contact</a></div>
                 </div>
               </footer>   
             </div>

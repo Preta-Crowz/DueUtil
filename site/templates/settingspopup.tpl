@@ -13,7 +13,7 @@
         <div class="greyed-out" id="profile-url-box">
         Your public profile:
         <div id="profile-url">
-        <a class="due-link" href="https://dueutil.tech/player/id/[@playerid]/">https://dueutil.tech/player/id/[@playerid]/</a>
+        <a class="due-link" href="https://pdu.zz.am/player/id/[@playerid]/">https://pdu.zz.am/player/id/[@playerid]/</a>
         </div>
         </div>
         </form>

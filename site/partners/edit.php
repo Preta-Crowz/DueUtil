@@ -87,7 +87,7 @@ if (!isset($_POST["name"], $_POST["image-url"],
             
             
             send_webhook(EDIT_WEBHOOK, array("content" => "<@$user_data[id]> edited partner details for **$name** $type_emoji ($partner_id)\n"
-                                                          ."<https://dueutil.tech/partners/$partner_id>"));
+                                                          ."<https://pdu.zz.am/partners/$partner_id>"));
                                                                                                                 
             if (partner_not_setup($partner_data)) {
                 send_webhook(PARTNER_WEBHOOK, array("embeds" => [new_partner_embed($partner_id,$partner_obj)]));
@@ -110,7 +110,7 @@ function new_partner_embed($id, $partner){
     global $user_data, $type_emoji;
     
     $embed = new Embed($title=":new: New partner!", $color=9819069);
-    $embed->url = "https://dueutil.tech/partners/$id";
+    $embed->url = "https://pdu.zz.am/partners/$id";
     $embed->set_thumbnail($url=$partner->image_url);
     $embed->add_field($name=$partner->name.' '.$type_emoji, $value=$partner->description);
     $embed->add_field($name="Partner page", $value='<'.$embed->url.'>', $inline=True);

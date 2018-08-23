@@ -92,8 +92,8 @@ async def help(ctx, *args, **details):
                                     + ":question: - Something is wrong with the command's syntax.\n"
                                     + ":x: - You don't have the required permissions to use the command."))
         help_embed.add_field(name=":link: Links", value=("**Invite me: %s**\n" % gconf.BOT_INVITE
-                                                         + "DueUtil site: https://dueutil.tech/\n"
-                                                         + "DueUtil guide: https://dueutil.tech/howto\n"
+                                                         + "DueUtil site: https://pdu.zz.am/\n"
+                                                         + "DueUtil guide: https://pdu.zz.am/howto\n"
                                                          + "Support server: https://discord.gg/n4b94VA\n"))
         help_embed.set_footer(
             text="To use admin commands you must have the manage server permission or the 'Due Commander' role.")
@@ -111,12 +111,12 @@ async def botinfo(ctx, **_):
 
     info_embed = discord.Embed(title="DueUtil's Information", type="rich", color=gconf.DUE_COLOUR)
     info_embed.description = "DueUtil is customizable bot to add fun commands, quests and battles to your server."
-    info_embed.add_field(name="Created by", value="[MacDue#4453](https://dueutil.tech/)")
+    info_embed.add_field(name="Created by", value="[MacDue#4453](https://pdu.zz.am/)")
     info_embed.add_field(name="Framework",
                          value="[discord.py %s :two_hearts:](http://discordpy.readthedocs.io/en/latest/)"
                                % discord.__version__)
     info_embed.add_field(name="Version", value=gconf.VERSION),
-    info_embed.add_field(name="Invite Due!", value="https://dueutil.tech/invite", inline=False)
+    info_embed.add_field(name="Invite Due!", value="https://pdu.zz.am/invite", inline=False)
     info_embed.add_field(name="Support server",
                          value="For help with the bot or a laugh join **https://discord.gg/n4b94VA**!")
     await util.say(ctx.channel, embed=info_embed)
