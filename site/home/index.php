@@ -22,6 +22,16 @@ if (sizeof($topdog_data) == 1) {
       $top_dog = find_player($topdog_stats['top_dog']);
       $top_dog_count = $topdog_stats['times_given'];
   }
+  else
+  {
+	  $top_dog = "None";
+	  $top_dog_count = "None";
+  }
+}
+else
+{
+  $top_dog = array("name"=>"None", "id"=>0);
+  $top_dog_count = 0;
 }
 
 // TODO: No topdog
