@@ -10,3 +10,4 @@ imagecache/
 dueutil.json
 dbconfig.json
 site/web.config
+site/scripts/auth.php
